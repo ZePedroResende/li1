@@ -1,0 +1,101 @@
+module Main where
+
+import qualified Data.Text as T
+import Graphics.Gloss
+import GlossExtras
+
+main = do inp <- getContents
+          let (x,y) = tarefa5 (readPicture inp)
+          putStrLn (show (round x) ++ " " ++ show (round y))
+
+	
+p = (Pictures [Circle 20,Pictures [Blank,Translate 10.3 10.3 (Circle 20)]])
+
+f = showPicture p 
+
+tarefa5 :: Picture -> (Float, Float)
+tarefa5 x = msg where
+	string= showPicture x 
+	msg = (2,2)
+
+
+blank = (0,0)
+
+choveBebados :: String -> String
+choveBebados (h:t) = if h == '[' then (h:t) else choveBebados t 
+
+
+
+{-
+Blank	
+--blank picture, with nothing in it.
+
+Polygon Path	
+-- convex polygon filled with a solid color.
+
+Line Path	
+--line along an arbitrary path.
+
+Circle Float	
+--circle with the given radius.
+
+ThickCircle Float Float	
+--circle with the given thickness and radius. If the thickness is 0 then this is equivalent to Circle.
+
+Arc Float Float Float	
+--circular arc drawn counter-clockwise between two angles (in degrees) at the given radius.
+
+ThickArc Float Float Float Float	
+--circular arc drawn counter-clockwise between two angles (in degrees), with the given radius and thickness. If the thickness is 0 then this is equivalent to Arc.
+
+Text String	
+--text to draw with a vector font.
+
+Bitmap Int Int BitmapData Bool	
+--bitmap image with a width, height and some 32-bit RGBA bitmap data.
+
+--boolean flag controls whether Gloss should cache the data between frames for speed. If you are programatically generating the image for each frame then use False. If you have loaded it from a file then use True.
+
+CoBlank	
+--blank picture, with nothing in it.
+
+Polygon Path	
+--convex polygon filled with a solid color.
+
+Line Path	
+--line along an arbitrary path.
+
+Circle Float	
+--circle with the given radius.
+
+
+Bitmap Int Int BitmapData Bool	
+--bitmap image with a width, height and some 32-bit RGBA bitmap data.
+--boolean flag controls whether Gloss should cache the data between frames for speed. If you are programatically generating the image for each frame then use False. If you have loaded it from a file then use True.
+
+Color Color Picture	
+--picture drawn with this color.
+
+Translate Float Float Picture	
+--picture translated by the given x and y coordinates.
+
+Rotate Float Picture	
+--picture rotated clockwise by the given angle (in degrees).
+
+Scale Float Float Picture	
+--picture scaled by the given x and y factors.
+
+Pictures [Picture]lor Color Picture	
+--picture drawn with this color.
+
+Translate Float Float Picture	
+--picture translated by the given x and y coordinates.
+
+Rotate Float Picture	
+--picture rotated clockwise by the given angle (in degrees).
+
+Scale Float Float Picture	
+--picture scaled by the given x and y factors.
+
+Pictures [Picture]
+-}

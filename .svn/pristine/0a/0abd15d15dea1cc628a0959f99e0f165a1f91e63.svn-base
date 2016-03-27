@@ -1,0 +1,27 @@
+\relax 
+\catcode `"\active 
+\select@language{portuges}
+\@writefile{toc}{\select@language{portuges}}
+\@writefile{lof}{\select@language{portuges}}
+\@writefile{lot}{\select@language{portuges}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{2}}
+\newlabel{sec:intro}{{1}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Descri\IeC {\c c}\IeC {\~a}o do Problema}{2}}
+\newlabel{sec:problema}{{2}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Concep\IeC {\c c}\IeC {\~a}o da Solu\IeC {\c c}\IeC {\~a}o}{2}}
+\newlabel{sec:solucao}{{3}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Estruturas de Dados}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Implementa\IeC {\c c}\IeC {\~a}o}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Tarefa A}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Tarefa B}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.3}Tarefa C}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.4}Tarefa D}{6}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.5}Tarefa E}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Testes}{10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Teste tarefa A}{10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}Teste tarefa B}{11}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3}Teste tarefa C}{11}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.4}Teste tarefa D}{11}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.5}Teste tarefa E}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Conclus\IeC {\~o}es}{12}}
+\newlabel{sec:conclusao}{{4}{12}}
